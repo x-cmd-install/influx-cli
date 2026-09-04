@@ -7,7 +7,7 @@ about:
   head: f04db87
   archived: false
   latestVersion: v2.8.0
-  collectedAt: 2026-09-04T19:47:40Z
+  collectedAt: 2026-09-04T20:52:59Z
 timeline:
   created: 2021-04-09
   lastCommit: 2026-08-10
@@ -84,6 +84,64 @@ total:
   openIssue: 97
   commit: 260
 ---
+path: /home/runner/.x-repo/github.com/influxdata/influx-cli
+collectedAt: 2026-09-04T20:53:00Z
+loc:
+  Go:
+    code: 82351
+    comments: 14894
+    blanks: 13886
+    files: 448
+  Yaml:
+    code: 1938
+    comments: 8
+    blanks: 2
+    files: 68
+  Mustache:
+    code: 1719
+    comments: 1
+    blanks: 189
+    files: 6
+  Protobuf:
+    code: 328
+    comments: 18
+    blanks: 53
+    files: 1
+  Sh:
+    code: 291
+    comments: 46
+    blanks: 63
+    files: 11
+  Bash:
+    code: 100
+    comments: 16
+    blanks: 22
+    files: 1
+  Makefile:
+    code: 62
+    comments: 26
+    blanks: 27
+    files: 2
+  Python:
+    code: 13
+    comments: 0
+    blanks: 2
+    files: 1
+  Json:
+    code: 5
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 439
+    blanks: 128
+    files: 10
+total:
+  code: 86828
+  comments: 15459
+  blanks: 14373
+  files: 549
 ---
 date: "2026-08-24"
 repo:
