@@ -12,6 +12,28 @@ CLI for managing resources in InfluxDB v2
 x install influx-cli
 ```
 
+## 代码规模
+
+合计: **86,807** 行代码（覆盖前 5 种语言、共 **534** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 82,351 | 14,894 | 13,886 | 448 |
+| Yaml | 1,938 | 8 | 2 | 68 |
+| Mustache | 1,719 | 1 | 189 | 6 |
+| Protobuf | 328 | 18 | 53 | 1 |
+| Sh | 291 | 46 | 63 | 11 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **3.7 / 10**
+
+评分最低的几项:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Maintained** (1/10) — 2 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 1
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/influxdata/influx-cli>
@@ -35,30 +57,20 @@ x install influx-cli
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 2 | 0 | 0 | 0 | 2 |
 | 90d | 2026-06-12 | 0 | 2 | 0 | 0 | 0 | 2 |
+| last180d | 2026-03-14 | 1 | 7 | 0 | 0 | 1 | 6 |
 | 360d | 2025-09-15 | 1 | 12 | 0 | 1 | 2 | 10 |
+| last720d | 2024-09-20 | 1 | 18 | 1 | 5 | 8 | 14 |
 
-## 代码规模
+## 发行版状态
 
-合计: **86,807** 行代码（覆盖前 5 种语言、共 **534** 个文件）。
+在 [repology.org](https://repology.org/project/influx-cli) 上共有 **27** 个发行版报告此项目。**10** 个 ✅ 已是最新上游版本，**8** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 82,351 | 14,894 | 13,886 | 448 |
-| Yaml | 1,938 | 8 | 2 | 68 |
-| Mustache | 1,719 | 1 | 189 | 6 |
-| Protobuf | 328 | 18 | 53 | 1 |
-| Sh | 291 | 46 | 63 | 11 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **3.7 / 10**
-
-评分最低的几项:
-
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Dangerous-Workflow** (-1/10) — no workflows found
-- **Maintained** (1/10) — 2 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 1
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `2.8.0` | ✅ latest |
+| Nix unstable | `2.8.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -69,4 +81,4 @@ influx-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/instal
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:35:58Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:55:32Z._
