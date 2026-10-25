@@ -1,3 +1,12 @@
+- repo: wakemeops
+  subrepo: dev
+  binname: influx-cli
+  visiblename: influx-cli
+  version: 2.7.1
+  origversion: 2.7.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: arch
   subrepo: extra
   srcname: influx-cli
@@ -117,15 +126,6 @@
     - MIT
   categories:
     - dev-db
-- repo: wakemeops
-  subrepo: dev
-  binname: influx-cli
-  visiblename: influx-cli
-  version: 2.5.0
-  origversion: 2.5.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: macports
   srcname: sysutils/influx-cli
   binname: influx-cli
@@ -275,15 +275,6 @@
   subrepo: dev
   binname: influx-cli
   visiblename: influx-cli
-  version: 2.7.1
-  origversion: 2.7.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: influx-cli
-  visiblename: influx-cli
   version: 2.6.1
   origversion: 2.6.1-1~ops2deb
   status: legacy
@@ -295,6 +286,15 @@
   visiblename: influx-cli
   version: 2.6.0
   origversion: 2.6.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: influx-cli
+  visiblename: influx-cli
+  version: 2.5.0
+  origversion: 2.5.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
