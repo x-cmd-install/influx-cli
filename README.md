@@ -14,11 +14,11 @@ x install influx-cli
 
 ## Code insight
 
-Total: **86,807** lines of code across **534** files in the top 5 languages.
+Total: **86,748** lines of code across **534** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 82,351 | 14,894 | 13,886 | 448 |
+| Go | 82,292 | 14,891 | 13,877 | 448 |
 | Yaml | 1,938 | 8 | 2 | 68 |
 | Mustache | 1,719 | 1 | 189 | 6 |
 | Protobuf | 328 | 18 | 53 | 1 |
@@ -41,8 +41,8 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v2.8.0` (2026-04-24)
-- **Last commit**: 2026-10-05
+- **Latest**: `v2.9.1` (2026-10-29)
+- **Last commit**: 2026-10-29
 
 ## Popularity
 
@@ -50,27 +50,27 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 14 · **Merged PRs**: 285 · **Open PRs**: 5 · **Closed issues**: 172 · **Open issues**: 98 · **Commits**: 261
+- **Releases**: 16 · **Merged PRs**: 287 · **Open PRs**: 3 · **Closed issues**: 172 · **Open issues**: 98 · **Commits**: 263
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 0 | 1 | 2 | 0 | 1 | 1 |
-| last60d | 2026-08-30 | 0 | 1 | 2 | 0 | 1 | 1 |
-| 90d | 2026-07-31 | 0 | 3 | 2 | 0 | 1 | 3 |
-| last180d | 2026-05-02 | 0 | 3 | 2 | 0 | 1 | 3 |
-| 360d | 2025-11-03 | 1 | 12 | 2 | 1 | 2 | 10 |
-| last720d | 2024-11-08 | 1 | 18 | 3 | 4 | 9 | 14 |
+| 30d | 2026-09-30 | 2 | 3 | 0 | 0 | 1 | 3 |
+| last60d | 2026-08-31 | 2 | 3 | 0 | 0 | 1 | 3 |
+| 90d | 2026-08-01 | 2 | 5 | 0 | 0 | 1 | 5 |
+| last180d | 2026-05-03 | 2 | 5 | 0 | 0 | 1 | 5 |
+| 360d | 2025-11-04 | 3 | 14 | 0 | 1 | 2 | 12 |
+| last720d | 2024-11-09 | 3 | 20 | 1 | 4 | 9 | 16 |
 
 ## Distribution status
 
-Reported by **27** distros on [repology.org](https://repology.org/project/influx-cli). **10** are ✅ on the latest upstream release, **8** are ⚠️ on an older version.
+Reported by **28** distros on [repology.org](https://repology.org/project/influx-cli). **1** are ✅ on the latest upstream release, **17** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Arch | `2.8.0` | ✅ latest |
-| Nix unstable | `2.8.0` | ✅ latest |
+| Arch | `2.8.0` | ⚠️ outdated |
+| Nix unstable | `2.8.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -81,4 +81,4 @@ Install metadata for influx-cli lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T05:53:31Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T05:58:11Z._
