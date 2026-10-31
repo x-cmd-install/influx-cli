@@ -1,3 +1,14 @@
+- repo: nix_stable_25_11
+  srcname: influxdb2-cli
+  visiblename: influx-cli
+  version: 2.7.5
+  origversion: null
+  status: outdated
+  summary: CLI for managing resources in InfluxDB v2
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
 - repo: arch
   subrepo: extra
   srcname: influx-cli
@@ -195,17 +206,6 @@
   summary: CLI for managing resources in InfluxDB v2
   maintainers:
     - ab@fmap.me
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: influxdb2-cli
-  visiblename: influx-cli
-  version: 2.7.5
-  origversion: null
-  status: outdated
-  summary: CLI for managing resources in InfluxDB v2
-  maintainers:
-    - fallback-mnt-nix@repology
   licenses:
     - MIT
 - repo: nix_stable_26_05
