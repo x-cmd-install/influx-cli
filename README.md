@@ -50,18 +50,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 287 · **Open PRs**: 3 · **Closed issues**: 172 · **Open issues**: 98 · **Commits**: 263
+- **Releases**: 16 · **Merged PRs**: 287 · **Open PRs**: 4 · **Closed issues**: 172 · **Open issues**: 98 · **Commits**: 263
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 2 | 3 | 0 | 0 | 1 | 3 |
-| last60d | 2026-08-31 | 2 | 3 | 0 | 0 | 1 | 3 |
-| 90d | 2026-08-01 | 2 | 5 | 0 | 0 | 1 | 5 |
-| last180d | 2026-05-03 | 2 | 5 | 0 | 0 | 1 | 5 |
-| 360d | 2025-11-04 | 3 | 14 | 0 | 1 | 2 | 12 |
-| last720d | 2024-11-09 | 3 | 20 | 1 | 4 | 9 | 16 |
+| 30d | 2026-10-01 | 2 | 3 | 1 | 0 | 1 | 3 |
+| last60d | 2026-09-01 | 2 | 3 | 1 | 0 | 1 | 3 |
+| 90d | 2026-08-02 | 2 | 5 | 1 | 0 | 1 | 5 |
+| last180d | 2026-05-04 | 2 | 5 | 1 | 0 | 1 | 5 |
+| 360d | 2025-11-05 | 3 | 14 | 1 | 1 | 2 | 12 |
+| last720d | 2024-11-10 | 3 | 20 | 2 | 4 | 9 | 16 |
 
 ## Distribution status
 
@@ -81,4 +81,4 @@ Install metadata for influx-cli lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:58:11Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:44:18Z._
