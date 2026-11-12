@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 2 | 1 | 1 | 0 | 0 | 2 |
-| last60d | 2026-09-12 | 2 | 3 | 1 | 0 | 1 | 3 |
-| 90d | 2026-08-13 | 2 | 3 | 1 | 0 | 1 | 3 |
-| last180d | 2026-05-15 | 2 | 5 | 1 | 0 | 1 | 5 |
-| 360d | 2025-11-16 | 3 | 14 | 1 | 1 | 2 | 12 |
-| last720d | 2024-11-21 | 3 | 19 | 2 | 4 | 9 | 15 |
+| 30d | 2026-10-13 | 2 | 1 | 1 | 0 | 0 | 2 |
+| last60d | 2026-09-13 | 2 | 3 | 1 | 0 | 1 | 3 |
+| 90d | 2026-08-14 | 2 | 3 | 1 | 0 | 1 | 3 |
+| last180d | 2026-05-16 | 2 | 5 | 1 | 0 | 1 | 5 |
+| 360d | 2025-11-17 | 3 | 14 | 1 | 1 | 2 | 12 |
+| last720d | 2024-11-22 | 3 | 19 | 2 | 4 | 9 | 15 |
 
 ## Distribution status
 
@@ -81,4 +81,4 @@ Install metadata for influx-cli lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T06:23:00Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T07:29:00Z._
