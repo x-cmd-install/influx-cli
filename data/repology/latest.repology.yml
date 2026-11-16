@@ -1,3 +1,12 @@
+- repo: wakemeops
+  subrepo: dev
+  binname: influx-cli
+  visiblename: influx-cli
+  version: 2.3.0
+  origversion: 2.3.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: arch
   subrepo: extra
   srcname: influx-cli
@@ -222,12 +231,12 @@
 - repo: nix_unstable
   srcname: influxdb2-cli
   visiblename: influx-cli
-  version: 2.8.0
+  version: 2.9.1
   origversion: null
-  status: outdated
+  status: newest
   summary: CLI for managing resources in InfluxDB v2
   maintainers:
-    - fallback-mnt-nix@repology
+    - kamadorueda@gmail.com
   licenses:
     - MIT
 - repo: openbsd
@@ -313,15 +322,6 @@
   visiblename: influx-cli
   version: 2.4.0
   origversion: 2.4.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: influx-cli
-  visiblename: influx-cli
-  version: 2.3.0
-  origversion: 2.3.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
