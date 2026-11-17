@@ -26,13 +26,13 @@ Total: **86,748** lines of code across **534** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.2 / 10**
+Overall score: **4 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Maintained** (4/10) — 5 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 4
+- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Token-Permissions** (-1/10) — No tokens found
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.9.1` (2026-10-29)
-- **Last commit**: 2026-10-29
+- **Last commit**: 2026-11-16
 
 ## Popularity
 
-- **Stars**: 75 · **Forks**: 21 · **Open issues**: 270 · **Contributors**: 37
+- **Stars**: 75 · **Forks**: 21 · **Open issues**: 270 · **Contributors**: 38
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 287 · **Open PRs**: 4 · **Closed issues**: 172 · **Open issues**: 98 · **Commits**: 263
+- **Releases**: 16 · **Merged PRs**: 288 · **Open PRs**: 3 · **Closed issues**: 172 · **Open issues**: 98 · **Commits**: 264
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 2 | 1 | 1 | 0 | 0 | 2 |
-| last60d | 2026-09-17 | 2 | 3 | 1 | 0 | 1 | 3 |
-| 90d | 2026-08-18 | 2 | 3 | 1 | 0 | 1 | 3 |
-| last180d | 2026-05-20 | 2 | 5 | 1 | 0 | 1 | 5 |
-| 360d | 2025-11-21 | 3 | 14 | 1 | 0 | 2 | 12 |
-| last720d | 2024-11-26 | 3 | 19 | 2 | 4 | 9 | 15 |
+| 30d | 2026-10-18 | 2 | 2 | 0 | 0 | 0 | 3 |
+| last60d | 2026-09-18 | 2 | 4 | 0 | 0 | 1 | 4 |
+| 90d | 2026-08-19 | 2 | 4 | 0 | 0 | 1 | 4 |
+| last180d | 2026-05-21 | 2 | 6 | 0 | 0 | 1 | 6 |
+| 360d | 2025-11-22 | 3 | 15 | 0 | 0 | 2 | 13 |
+| last720d | 2024-11-27 | 3 | 20 | 1 | 4 | 9 | 16 |
 
 ## Distribution status
 
@@ -81,4 +81,4 @@ Install metadata for influx-cli lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T06:53:01Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T08:38:27Z._

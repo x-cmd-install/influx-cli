@@ -26,13 +26,13 @@ x install influx-cli
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.2 / 10**
+总评分: **4 / 10**
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Maintained** (4/10) — 5 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 4
+- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Token-Permissions** (-1/10) — No tokens found
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
 
@@ -42,26 +42,26 @@ x install influx-cli
 ## 发布
 
 - **最新版本**: `v2.9.1` (2026-10-29)
-- **最近提交**: 2026-10-29
+- **最近提交**: 2026-11-16
 
 ## 流行度
 
-- **Star**: 75 · **Fork**: 21 · **开放 issue**: 270 · **贡献者**: 37
+- **Star**: 75 · **Fork**: 21 · **开放 issue**: 270 · **贡献者**: 38
 
 ## 累计统计
 
-- **发布数**: 16 · **已合并 PR**: 287 · **开放 PR**: 4 · **已关闭 issue**: 172 · **开放 issue**: 98 · **提交数**: 263
+- **发布数**: 16 · **已合并 PR**: 288 · **开放 PR**: 3 · **已关闭 issue**: 172 · **开放 issue**: 98 · **提交数**: 264
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 2 | 1 | 1 | 0 | 0 | 2 |
-| last60d | 2026-09-17 | 2 | 3 | 1 | 0 | 1 | 3 |
-| 90d | 2026-08-18 | 2 | 3 | 1 | 0 | 1 | 3 |
-| last180d | 2026-05-20 | 2 | 5 | 1 | 0 | 1 | 5 |
-| 360d | 2025-11-21 | 3 | 14 | 1 | 0 | 2 | 12 |
-| last720d | 2024-11-26 | 3 | 19 | 2 | 4 | 9 | 15 |
+| 30d | 2026-10-18 | 2 | 2 | 0 | 0 | 0 | 3 |
+| last60d | 2026-09-18 | 2 | 4 | 0 | 0 | 1 | 4 |
+| 90d | 2026-08-19 | 2 | 4 | 0 | 0 | 1 | 4 |
+| last180d | 2026-05-21 | 2 | 6 | 0 | 0 | 1 | 6 |
+| 360d | 2025-11-22 | 3 | 15 | 0 | 0 | 2 | 13 |
+| last720d | 2024-11-27 | 3 | 20 | 1 | 4 | 9 | 16 |
 
 ## 发行版状态
 
@@ -81,4 +81,4 @@ influx-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/instal
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T06:53:02Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T08:38:28Z._
