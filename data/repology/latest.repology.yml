@@ -1,35 +1,26 @@
-- repo: liguros_develop
-  srcname: dev-db/influx-cli
-  visiblename: dev-db/influx-cli
-  version: 2.7.3
-  origversion: null
-  status: legacy
-  summary: The command line for influxdb
-  maintainers:
-    - williamh@gentoo.org
-  licenses:
-    - Apache-2.0
-    - BSD
-    - BSD-2
-    - MIT
-  categories:
-    - dev-db
-- repo: liguros_develop
-  srcname: dev-db/influx-cli
-  visiblename: dev-db/influx-cli
+- repo: openbsd
+  srcname: databases/influx-cli
+  binname: influx-cli
+  visiblename: databases/influx-cli
   version: 2.7.5
-  origversion: 2.7.5-r1
+  origversion: null
   status: outdated
-  summary: The command line for influxdb
+  summary: CLI to query influxdb v2 databases
   maintainers:
-    - williamh@gentoo.org
-  licenses:
-    - Apache-2.0
-    - BSD
-    - BSD-2
-    - MIT
+    - ports@openbsd.org
   categories:
-    - dev-db
+    - databases
+- repo: parabola
+  subrepo: extra
+  srcname: influx-cli
+  binname: influx-cli
+  visiblename: influx-cli
+  version: 2.9.1
+  origversion: 2.9.1-1
+  status: newest
+  summary: CLI for managing resources in InfluxDB
+  licenses:
+    - MIT
 - repo: arch
   subrepo: extra
   srcname: influx-cli
@@ -85,6 +76,15 @@
     - MIT
   categories:
     - dev-db
+- repo: wakemeops
+  subrepo: dev
+  binname: influx-cli
+  visiblename: influx-cli
+  version: 2.9.1
+  origversion: 2.9.1-1~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
 - repo: liguros_stable
   srcname: dev-db/influx-cli
   visiblename: dev-db/influx-cli
@@ -102,6 +102,38 @@
   categories:
     - dev-db
 - repo: liguros_stable
+  srcname: dev-db/influx-cli
+  visiblename: dev-db/influx-cli
+  version: 2.7.3
+  origversion: null
+  status: legacy
+  summary: The command line for influxdb
+  maintainers:
+    - williamh@gentoo.org
+  licenses:
+    - Apache-2.0
+    - BSD
+    - BSD-2
+    - MIT
+  categories:
+    - dev-db
+- repo: liguros_develop
+  srcname: dev-db/influx-cli
+  visiblename: dev-db/influx-cli
+  version: 2.7.5
+  origversion: 2.7.5-r1
+  status: outdated
+  summary: The command line for influxdb
+  maintainers:
+    - williamh@gentoo.org
+  licenses:
+    - Apache-2.0
+    - BSD
+    - BSD-2
+    - MIT
+  categories:
+    - dev-db
+- repo: liguros_develop
   srcname: dev-db/influx-cli
   visiblename: dev-db/influx-cli
   version: 2.7.3
@@ -230,38 +262,6 @@
     - kamadorueda@gmail.com
   licenses:
     - MIT
-- repo: openbsd
-  srcname: databases/influx-cli
-  binname: influx-cli
-  visiblename: databases/influx-cli
-  version: 2.7.5
-  origversion: null
-  status: outdated
-  summary: CLI to query influxdb v2 databases
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - databases
-- repo: parabola
-  subrepo: extra
-  srcname: influx-cli
-  binname: influx-cli
-  visiblename: influx-cli
-  version: 2.9.1
-  origversion: 2.9.1-1
-  status: newest
-  summary: CLI for managing resources in InfluxDB
-  licenses:
-    - MIT
-- repo: wakemeops
-  subrepo: dev
-  binname: influx-cli
-  visiblename: influx-cli
-  version: 2.9.1
-  origversion: 2.9.1-1~ops2deb
-  status: newest
-  maintainers:
-    - ops2deb@upciti.com
 - repo: wakemeops
   subrepo: dev
   binname: influx-cli
