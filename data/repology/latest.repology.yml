@@ -1,24 +1,12 @@
-- repo: openbsd
-  srcname: databases/influx-cli
-  binname: influx-cli
-  visiblename: databases/influx-cli
+- repo: nix_stable_25_11
+  srcname: influxdb2-cli
+  visiblename: influx-cli
   version: 2.7.5
   origversion: null
   status: outdated
-  summary: CLI to query influxdb v2 databases
+  summary: CLI for managing resources in InfluxDB v2
   maintainers:
-    - ports@openbsd.org
-  categories:
-    - databases
-- repo: parabola
-  subrepo: extra
-  srcname: influx-cli
-  binname: influx-cli
-  visiblename: influx-cli
-  version: 2.9.1
-  origversion: 2.9.1-1
-  status: newest
-  summary: CLI for managing resources in InfluxDB
+    - fallback-mnt-nix@repology
   licenses:
     - MIT
 - repo: arch
@@ -76,15 +64,6 @@
     - MIT
   categories:
     - dev-db
-- repo: wakemeops
-  subrepo: dev
-  binname: influx-cli
-  visiblename: influx-cli
-  version: 2.9.1
-  origversion: 2.9.1-1~ops2deb
-  status: newest
-  maintainers:
-    - ops2deb@upciti.com
 - repo: liguros_stable
   srcname: dev-db/influx-cli
   visiblename: dev-db/influx-cli
@@ -229,17 +208,6 @@
     - ab@fmap.me
   licenses:
     - MIT
-- repo: nix_stable_25_11
-  srcname: influxdb2-cli
-  visiblename: influx-cli
-  version: 2.7.5
-  origversion: null
-  status: outdated
-  summary: CLI for managing resources in InfluxDB v2
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: influxdb2-cli
   visiblename: influx-cli
@@ -262,6 +230,38 @@
     - kamadorueda@gmail.com
   licenses:
     - MIT
+- repo: openbsd
+  srcname: databases/influx-cli
+  binname: influx-cli
+  visiblename: databases/influx-cli
+  version: 2.7.5
+  origversion: null
+  status: outdated
+  summary: CLI to query influxdb v2 databases
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - databases
+- repo: parabola
+  subrepo: extra
+  srcname: influx-cli
+  binname: influx-cli
+  visiblename: influx-cli
+  version: 2.9.1
+  origversion: 2.9.1-1
+  status: newest
+  summary: CLI for managing resources in InfluxDB
+  licenses:
+    - MIT
+- repo: wakemeops
+  subrepo: dev
+  binname: influx-cli
+  visiblename: influx-cli
+  version: 2.9.1
+  origversion: 2.9.1-1~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
 - repo: wakemeops
   subrepo: dev
   binname: influx-cli
