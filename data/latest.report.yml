@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.9.1"
   latestRelease: "v2.9.1"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T08:45:32Z
+  collectedAt: 2026-11-28T07:56:26Z
 timeline:
   created: 2021-04-09
   lastCommit: 2026-11-16
@@ -31,7 +31,7 @@ language:
 totalBytes: 1055121
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 2
     mergedPR: 1
     openPR: 0
@@ -39,7 +39,7 @@ recent:
     openIssue: 0
     commit: 1
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 2
     mergedPR: 4
     openPR: 0
@@ -47,7 +47,7 @@ recent:
     openIssue: 1
     commit: 4
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 2
     mergedPR: 4
     openPR: 0
@@ -55,7 +55,7 @@ recent:
     openIssue: 1
     commit: 4
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 2
     mergedPR: 6
     openPR: 0
@@ -63,7 +63,7 @@ recent:
     openIssue: 1
     commit: 6
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 3
     mergedPR: 15
     openPR: 0
@@ -71,7 +71,7 @@ recent:
     openIssue: 2
     commit: 13
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 3
     mergedPR: 20
     openPR: 1
@@ -87,7 +87,7 @@ total:
   commit: 264
 ---
 path: /home/runner/.x-repo/github.com/influxdata/influx-cli
-collectedAt: 2026-11-27T08:45:33Z
+collectedAt: 2026-11-28T07:56:28Z
 loc:
   Go:
     code: 82292
